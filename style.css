@@ -1,0 +1,103 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+#heading{
+    text-align: center;
+    font-size: large;
+    font-weight: 300;
+    height: 60px;
+    color: white;
+}
+#heading h1{
+    box-shadow: 0 0 10px  white;
+    background-color: black;
+    padding: 12px 16px;
+}
+#optionBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 50px;
+}
+.choises{
+    aspect-ratio: 1/1;
+    width: 16%;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 10px white; 
+    transition: 250ms ease;
+    background-color: white;
+}
+.choises img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;   
+} 
+.choises:hover{
+    border: 2px black solid;
+}
+#scoreBoard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 45px;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 150;
+}
+#user-score,#computer-score{
+    font-size: 35px;
+}
+.messageCont {
+    margin-top: 20px;
+    display: inline;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.messageCont p {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    color: white;
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;     
+    border-radius: 10px;
+}
+.win{
+    background-color: #2ecc71 !important;
+    color: white !important;
+}
+.lose{
+    background-color: #e74c3c !important;
+    color: white !important;
+}
+.draw{
+    background-color: #3498db !important;
+    color: white !important;
+}
+#selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+}
+#selection p{
+    font-size: 25px;
+    font-weight: 600;
+    position:sticky;
+}
+p{
+    color: white;
+}
